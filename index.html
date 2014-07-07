@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Zen Framework Base</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="description" content="<?php echo html($site->description()) ?>" />
+        <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
+        <meta name="robots" content="index, follow" />
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="assets/css/normalize.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        
+        <!-- HTML5 Element Fix -->
+        <!--[if lt IE 9]>
+            <script>
+                document.createElement('header');
+                document.createElement('nav');
+                document.createElement('section');
+                document.createElement('article');
+                document.createElement('aside');
+                document.createElement('footer');
+            </script>
+        <![endif]-->
+        
+        <!-- IE7 Font Awesome Fix -->
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="" />
+        <![endif]-->
+    </head>
+
+    <body>
+        
+        <header id="header">
+            <div id="header-content" class="page-width">
+                <div id="header-title"><h1><a href="/"><strong>ZEN</strong> Framework</a></h1></div>
+                <div id="header-links">
+                    <ul class="navigation">
+                        <li><a href="#" class="active">Link One</a></li>
+                        <li><a href="#">Link Two</a></li>
+                        <li><a href="#">Link Three</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="hero-color"></div>
+            <div class="hero-content page-width">
+                <h1>ZEN FRAMEWORK</h1>
+                <p>An opinionated web framework designed to create a consistent structure with a flexible and efficient styling strategy. Greatly inspired by the CSS Zen Garden.</p>
+            </div>
+        </div>
+
+        <div class="page-width">
+
+            <div class="grp grp-two">
+                <div class="col col-one">
+                    <h1>Column One</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ex unde atque cupiditate dolorem quam quis doloremque porro magni assumenda animi vero, tempore magnam placeat iusto nihil ipsa at. Maxime!</p>
+                </div>
+                <div class="col col-two">
+                    <h1>Column Two</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quo temporibus adipisci veritatis omnis perferendis at nemo vero assumenda deserunt maiores ipsa, error eos cumque? Quo ex quos in molestiae.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil laborum blanditiis possimus placeat et earum, perspiciatis sequi voluptatum voluptatem, vel repellat. Nostrum magnam sapiente magni laudantium quidem beatae similique ex!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate tempora accusamus minus voluptatem aut, qui asperiores commodi placeat tempore veniam amet dolor, maiores, perferendis voluptates voluptatibus consectetur? Repudiandae minima, natus.</p>
+                </div>
+            </div>
+
+            <div class="grp grp-four">
+                <div class="col col-one">
+                    <h1>Column One</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ex unde atque cupiditate dolorem quam quis doloremque porro magni assumenda animi vero, tempore magnam placeat iusto nihil ipsa at. Maxime!</p>
+                </div>
+                <div class="col col-two">
+                    <h1>Column Two</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quo temporibus adipisci veritatis omnis perferendis at nemo vero assumenda deserunt maiores ipsa, error eos cumque? Quo ex quos in molestiae.</p>
+                </div>
+                <div class="col col-three">
+                    <h1>Column Three</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere aliquid soluta modi repellat ea accusamus, doloribus, veniam temporibus iure natus quia vel sed enim nihil, quaerat labore iste architecto autem.</p>
+                </div>
+                <div class="col col-four">
+                    <h1>Column Four</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit rerum quisquam dignissimos, deleniti! Ut laborum soluta ad itaque, fugiat ducimus tenetur nemo cupiditate iste quibusdam neque veniam molestiae, quos architecto.</p>
+                </div>
+            </div>
+            
+            <div class="grp grp-one">
+                <div class="col col-one"> 
+
+                    <!-- Block Component -->
+                    <div class="block">
+                        <div class="block-image">
+                            <img src="http://placehold.it/300x250" alt="">
+                        </div>
+                        <div class="block-content">
+                            <h2>Block Component Example</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus optio alias praesentium, sapiente minima delectus enim consectetur odit aspernatur nesciunt. Voluptatibus delectus adipisci tenetur excepturi deleniti quas, earum ad error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit cumque distinctio voluptatum at assumenda harum eum sapiente dicta, quisquam maxime consequuntur molestiae architecto tenetur consectetur, tempora a. Harum, totam, dolor!</p>
+                            <a href="" class="btn">Learn More</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="grp grp-three">
+                <div class="col col-one">
+                    <div class="col col-one">
+                        
+                        <!-- News Component -->
+                        <div class="news">
+                            <div class="news-header">
+                                <h1>News</h1>
+                            </div>
+                            <div class="news-content">
+                                <ul class="news-items">
+                                    <li class="news-item">
+                                        <h3 class="news-item-title"><a href="">News Item</a></h3>
+                                        <span class="news-item-date">1/1/1970</span>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quasi, commodi, dolorum non itaque eveniet laudantium nemo quia totam explicabo et ducimus doloremque sunt perferendis earum ipsa eum veritatis praesentium!</p>
+                                        <a href="" class="news-item-link">Read More</a>
+                                    </li>
+                                    <li class="news-item">
+                                        <h3 class="news-item-title"><a href="">More Updates Today</a></h3>
+                                        <span class="news-item-date">1/1/1970</span>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, error, alias, sint voluptatibus praesentium quae corrupti ex quasi cumque officia magnam perspiciatis laborum doloribus aperiam saepe fugiat culpa enim ab!</p>
+                                        <a href="" class="news-item-link">Read More</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>    
+
+                <div class="col col-two">
+                    <h1>What is the Zen Framework?</h1>
+                    <p>The Zen Framework is an opinionated set of HTML structures and elements that are designed to remain consistent across a large set of sites. This allows for rapid development within a shared templating environment.</p>
+                    <p>The core goal is that if a developer creates a design for the Zen Framework, then anyone in the world who is using the Zen Framework can adopt their design by simply using their CSS file. It's endlessly sharable.</p>
+                    <p>While the Zen Framework may not be the best fit for every project, it does provide great value to organizations and developers that manage an incredibly large number of sites within a central organization. Not only will it help developers design consistently, but it will also save a lot of time when creating and updating designs.</p>
+                    
+                    <h2>Getting Started</h2>
+                    <p>Since the framework itself is just a set of HTML structures, all you need to do is create a CSS file that targets all of the DOM elements in the framework.<p>
+                    <p>By taking advantage of OOCSS principles, organizing your CSS code is very easy. If you need a little help getting started, check out our starter kit CSS.</p>
+                </div>
+
+                <div class="col col-three">
+                    <div class="col col-three">
+                        
+                        <!-- Events Component -->
+                        <div class="events">
+                            <div class="events-header">
+                                <h1>Events</h1>
+                            </div>
+                            <div class="events-content">
+                                <ul class="events-items">
+                                    <li>
+                                        <h4><a href="">8/1/14 | Event Example</a></h4>
+                                    </li>
+                                    <li>
+                                        <h4><a href="">8/19/14 | Another Event Item</a></h4>
+                                    </li>
+                                    <li>
+                                        <h4><a href="">8/30/14 | Hello World</a></h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, error, alias, sint voluptatibus praesentium quae corrupti ex quasi cumque officia magnam perspiciatis laborum doloribus aperiam saepe fugiat culpa enim ab!</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="grp grp-four">
+                <div class="col col-one">
+                    <h1>Column One</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ex unde atque cupiditate dolorem quam quis doloremque porro magni assumenda animi vero, tempore magnam placeat iusto nihil ipsa at. Maxime!</p>
+                </div>
+                <div class="col col-two">
+                    <h1>Column Two</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores quo temporibus adipisci veritatis omnis perferendis at nemo vero assumenda deserunt maiores ipsa, error eos cumque? Quo ex quos in molestiae.</p>
+                </div>
+                <div class="col col-three">
+                    <h1>Column Three</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere aliquid soluta modi repellat ea accusamus, doloribus, veniam temporibus iure natus quia vel sed enim nihil, quaerat labore iste architecto autem.</p>
+                </div>
+                <div class="col col-four">
+                    <h1>Column Four</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit rerum quisquam dignissimos, deleniti! Ut laborum soluta ad itaque, fugiat ducimus tenetur nemo cupiditate iste quibusdam neque veniam molestiae, quos architecto.</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- Site Footer -->
+        <footer id="site-footer">
+            <div id="site-footer-content" class="grp grp-four measure">
+                <div id="site-footer-one" class="col col-one">
+                    <h3>Links Section One</h3>
+                    <ul class="link-list">
+                        <li><a href="http://cal.wvu.edu/" title="WVU Academic Calendar (Opens In New Window)" target="_blank">Academic Calendar</a></li>
+                        <li><a href="http://apply.wvu.edu/" title="Apply Online (Opens In New Window)" target="_blank">Apply Online</a></li>
+                        <li><a href="http://courses.wvu.edu/" title="WVU Course Schedule (Opens In New Window)" target="_blank">Course Schedule</a></li>
+                        <li><a href="https://ecampus.wvu.edu/" title="WVU eCampus (Opens In New Window)" target="_blank">WVU eCampus</a></li>
+                        <li><a href="http://registrar.wvu.edu/current_students/finals" title="WVU Final Exam Schedule (Opens In New Window)" target="_blank">Final Exam Schedule</a></li>
+                        <li><a href="http://www.finaid.wvu.edu/" title="Financial Aid (Opens In New Window)" target="_blank">Financial Aid</a></li>
+                    </ul>
+                </div>
+                <div id="site-footer-two" class="col col-two">
+                    <h3>Links Section Two</h3>
+                    <ul class="link-list">
+                        <li><a href="http://www.hsc.wvu.edu/alumni/" title="HSC Alumni (Opens In New Window)" target="_blank">Alumni</a></li>
+                        <li><a href="http://www.hsc.wvu.edu/chancellor/" title="Chancellor's Office (Opens In New Window)" target="_blank">Chancellor's Office</a></li>
+                        <li><a href="http://www.hsc.wvu.edu/RESOFF/" title="HSC Graduate Programs (Opens In New Window)" target="_blank">Graduate Programs</a></li>
+                        <li><a href="http://www.hsc.wvu.edu/its/" title="Information Technology Services (Opens In New Window)" target="_blank">Information Technology Services</a></li>
+                        <li><a href="http://sole.hsc.wvu.edu" title="SOLE - Student Online Learning Environment (Opens In New Window)" target="_blank">SOLE</a></li>
+                        <li><a href="http://www.health.wvu.edu/" title="WVU Healthcare (Opens In New Window)" target="_blank">WVU Healthcare</a></li>
+                    </ul>
+                </div>
+                <div id="site-footer-three" class="col col-three">
+                    <h3>Links Section Three</h3>
+                    <ul class="link-list">
+                        <li><a href="#">Link One</a></li>
+                        <li><a href="#">Link Two</a></li>
+                        <li><a href="#">Link Three</a></li>
+                        <li><a href="#">Link Four</a></li>
+                        <li><a href="#">Link Five</a></li>
+                    </ul>
+                </div>
+                <div id="site-footer-four" class="col col-four">
+                    <h3>Links Section Four</h3>
+                    <ul class="link-list">
+                        <li><a href="#">Link One</a></li>
+                        <li><a href="#">Link Two</a></li>
+                        <li><a href="#">Link Three</a></li>
+                        <li><a href="#">Link Four</a></li>
+                        <li><a href="#">Link Five</a></li>
+                    </ul>
+                </div>  
+            </div>
+        </footer>
+
+    </body>
+</html>
