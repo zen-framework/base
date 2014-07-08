@@ -33,7 +33,7 @@
     <body>
         
         <header id="header">
-            <div id="header-content" class="page-width">
+            <div id="header-content">
                 <div id="header-title"><h1><a href="/"><strong>ZEN</strong> Framework</a></h1></div>
                 <div id="header-links">
                     <ul class="navigation">
@@ -45,21 +45,36 @@
             </div>
         </header>
 
-        <!-- Hero -->
+        <!-- Hero Component -->
         <div class="hero">
             <div class="hero-color"></div>
-            <div class="hero-content page-width">
+            <div class="hero-content">
                 <h1>ZEN FRAMEWORK</h1>
                 <p>An opinionated web framework designed to create a consistent structure with a flexible and efficient styling strategy. Greatly inspired by the CSS Zen Garden.</p>
             </div>
         </div>
 
-        <div class="page-width">
+        <div id="core">
 
             <div class="grp grp-two">
                 <div class="col col-one">
-                    <h1>Column One</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, ex unde atque cupiditate dolorem quam quis doloremque porro magni assumenda animi vero, tempore magnam placeat iusto nihil ipsa at. Maxime!</p>
+                    
+                    <!-- Menu Component -->
+                    <div class="menu">
+                        <div class="menu-header">
+                            <h1>Menu</h1>
+                        </div>
+                        <div class="menu-content">
+                            <ul class="menu-items">
+                                <li class="menu-item"><a href="#">Link One</a></li>
+                                <li class="menu-item"><a href="#">Link Two</a></li>
+                                <li class="menu-item"><a href="#">Link Three</a></li>
+                                <li class="menu-item"><a href="#">Link Four</a></li>
+                                <li class="menu-item"><a href="#">Link Five</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col col-two">
                     <h1>Column Two</h1>
@@ -138,6 +153,11 @@
 
                 <div class="col col-two">
                     <h1>What is the Zen Framework?</h1>
+                    <ul class="info-bar">
+                        <li><strong>Author:</strong> John Smith</li>
+                        <li><strong>Posted:</strong> 5/25/77</li>
+                        <li><strong>Category:</strong> News</li>
+                    </ul>
                     <p>The Zen Framework is an opinionated set of HTML structures and elements that are designed to remain consistent across a large set of sites. This allows for rapid development within a shared templating environment.</p>
                     <p>The core goal is that if a developer creates a design for the Zen Framework, then anyone in the world who is using the Zen Framework can adopt their design by simply using their CSS file. It's endlessly sharable.</p>
                     <p>While the Zen Framework may not be the best fit for every project, it does provide great value to organizations and developers that manage an incredibly large number of sites within a central organization. Not only will it help developers design consistently, but it will also save a lot of time when creating and updating designs.</p>
