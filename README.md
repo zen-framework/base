@@ -7,10 +7,12 @@ The Zen Framework is an opinionated templating framework designed to create a co
 
 The HTML remains the same - all that changes between designs is the CSS (along with JS and images, as needed). With a strict, community decided set of HTML structures the Zen Framework allows you to focus on creating beautiful CSS.
 
+While the Zen Framework may not be the best fit for every project, it does provide great value to organizations and developers that manage an incredibly large number of sites within a central organization. Not only will it help developers design consistently, but it will also save a lot of time when creating and updating designs.
+
 ## Getting Started
 The Zen Framework is still in the early stages of development so, it's not quite ready for production yet. However, if you would like to contribute to the development, we could really use your input!
 
-If you'd like to work on a design, clone down this repo and open the index.html file in your browser. Load the project folder into your favorite code editor and open up the main.css file in the assets/css directory and start designing!
+If you'd like to work on a design, clone or [download](https://github.com/zen-framework/base/archive/master.zip "Download Zen Framework Base") this repo and open the index.html file in your browser. Load the project folder into your favorite code editor and open up the main.css file in the assets/css directory and start designing!
 
 Once you have finished, you can simply rename your assets folder to a unique name that you would like to give your design and it is ready to be shared or implemented!
 
@@ -19,7 +21,7 @@ We recognize that every CMS has different processes and requirements when creati
 
 Since all of the designs in the Zen Framework are powered by a single CSS file all that is really needed to implement the Zen Framework into your CMS is to use the HTML modules that are defined in the base HTML file.
 
-In the future our goal is to make the HTML module information far more documented and accessible to make the process of implementing it into various CMS's as easy as posible.
+In the future our goal is to make the HTML module information far more documented and accessible to make the process of implementing it into various CMS's as easy as possible.
 
 ## Modules
 Each website is made up of reusable blocks that we call modules. Each of these is included in the HTML file provided in this repo.
@@ -41,3 +43,4 @@ Each website is made up of reusable blocks that we call modules. Each of these i
 ## To Do
 - Print Stylesheet
 - Module: Calendar
+- Manifest
