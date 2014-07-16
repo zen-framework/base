@@ -93,9 +93,11 @@
     .events-content {}
     .events-items {}
     .events-items > li {}
-    .events-month {}
-    .events-day {}
-    .events-year {}
+    .event-date {}
+    .event-date-month {}
+    .event-date-day {}
+    .event-date-year {}
+    .event-title {}
     
     /* Breadcrumbs */
     .breadcrumbs {}
