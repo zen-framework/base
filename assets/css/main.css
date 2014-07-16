@@ -93,6 +93,9 @@
     .events-content {}
     .events-items {}
     .events-items > li {}
+    .events-month {}
+    .events-day {}
+    .events-year {}
     
     /* Breadcrumbs */
     .breadcrumbs {}
