@@ -20,11 +20,6 @@
     #navbar {}
     #navbar-content {}
 
-    /* Hero */
-    #hero {}
-    #hero-color {}
-    #hero-content {}
-
     /* Front */
     #front {}
     #front-content {}
@@ -73,7 +68,7 @@
 
     /* Hero */
     .hero {}
-    .hero-color {}
+    .hero-extra {}
     .hero-content {}
     
     /* Menu */
