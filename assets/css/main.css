@@ -15,6 +15,10 @@
     #header-title {}
     #header-links {}
     #header-links-toggle {}
+    
+    /* Navbar */
+    #navbar {}
+    #navbar-content {}
 
     /* Hero */
     #hero {}
@@ -63,6 +67,7 @@
     /* Navigation */
     .navigation {}
     .navigation.fixed {}
+    .navigation > li {}
     .navigation > li > a {}
     .navigation > li > a.active {}
 
