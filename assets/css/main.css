@@ -21,12 +21,8 @@
     #navbar-content {}
 
     /* Front */
-    #front {}
-    #front-content {}
-
-    /* Back */
-    #back {}
-    #back-content {}
+    #core {}
+    #core-content {}
 
     /* Site Footer */
     #site-footer {}
