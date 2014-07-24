@@ -20,13 +20,9 @@
     #navbar {}
     #navbar-content {}
 
-    /* Front */
+    /* Core */
     #core {}
     #core-content {}
-
-    /* Site Footer */
-    #site-footer {}
-    #site-footer-content {}
 
     /* Footer */
     #footer {}
@@ -114,17 +110,17 @@
     .card-image {}
     .card-content {}
 
-    /* Link List */
-    .link-list {}
-    .link-list > li {}
-    .link-list > li > a {}
-    .link-list > li > a:hover {}
+    /* List */
+    .list {}
+    .list > li {}
+    .list > li > a {}
+    .list > li > a:hover {}
 
-    /* Link Chain */
-    .link-chain {}
-    .link-chain > li {}
-    .link-chain > li > a {}
-    .link-chain > li > a:hover {}
+    /* Chain */
+    .chain {}
+    .chain > li {}
+    .chain > li > a {}
+    .chain > li > a:hover {}
     
     /* Search */
     .search {}
