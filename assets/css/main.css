@@ -20,6 +20,10 @@
     #navbar {}
     #navbar-content {}
 
+    /* Feature */
+    #feature {}
+    #feature-content {}
+
     /* Core */
     #core {}
     #core-content {}
@@ -61,7 +65,7 @@
     /* Hero */
     .hero {}
     .hero-extra {}
-    .hero-content {}
+    .hero-caption {}
     .hero-link {}
     
     /* Menu */
